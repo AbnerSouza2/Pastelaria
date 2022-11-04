@@ -1,0 +1,363 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#header-home{
+    background-color: rgb(182, 3, 3);
+    height:104px;
+    position: absolute;
+    width: 100%;
+    
+}
+
+#menu{    
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;  
+
+}
+
+.opcoes-menu1>a{
+    text-decoration: none;
+    color: white;
+    position:relative;
+    display: block;
+    left: 280px;
+    padding: 36px;
+    height: 10px;
+    width: 60px;
+
+}
+.opcoes-menu1>a:hover{
+    color: #ffe600;
+    font-size: 23px;
+}
+
+li{
+    padding: 10px;
+}
+
+#img-logo{ 
+    position: absolute;
+    width: 220px;
+    height: 180px;
+    display: flex;
+    bottom: 13%;
+    left: 42%;
+    justify-content: center;   
+    z-index: 1;
+}
+
+.opcoes-menu2>a{
+    text-decoration: none;
+    color: white;
+    position:relative;
+    display: block;
+    left: 600px;
+    padding: 36px;
+    height: 10px;
+    width: 60px;
+}
+
+.opcoes-menu2>a:hover{
+    color: #ffe600;
+    font-size: 23px;
+    
+}
+
+#propaganda-img{
+   position: absolute;
+   z-index: 0; 
+ 
+}
+
+.cardapio-home{
+    color: #343038;
+    position: absolute;
+    align-self: center;
+    z-index: 2;
+    bottom: -150px;
+    left: 42%;  
+    text-align: center;
+    
+}
+
+.cardapio-home>h1{
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+}
+
+.cardapio-home>h2{
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.conteiner-cardapio{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    bottom: -600px;
+   
+}
+.conteiner2-cardapio{
+    width: 30%;
+    height: 350px;
+    position: absolute;
+    bottom: 20px;
+    left: 190px;  
+   
+}
+.conteiner2-cardapio:hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+.conteiner2-cardapio img{
+   width: 100%;
+   height: 100%;
+   -webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+   border-radius: 10px;
+ 
+}
+
+.conteiner3-cardapio{
+    width: 30%;
+    height: 350px;
+    position: absolute;
+    bottom: 20px;
+    right: 200px;
+  
+}
+
+.conteiner3-cardapio:hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+           
+}
+
+.conteiner3-cardapio img{
+    width: 100%;
+    height: 100%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    border-radius: 10px;
+}
+
+#segunda-parte{
+
+    top:975px;
+    height: 850px;
+    position: relative;
+    width: 100%;
+}
+
+.zoom-2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    align-self: center;
+    width: 100%;
+    top: 38%;
+    text-align: center;
+    font-size: 55px;
+    
+}
+
+.tel-pedidos{
+    position: absolute;
+    bottom: -100px;
+    left: 40%;
+    color: #2a272e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+
+}
+
+.icones{
+    position: absolute;
+    bottom: -190px;
+    left: 42%;
+   
+}
+.icones>a{
+    padding: 30px;
+}
+.icones>a>:hover{
+    height: 50px;
+}
+
+.copyright{
+    position: absolute;
+    bottom: -250px;
+    left: 32%
+}
+
+#segunda-parte-sobre{
+    position: absolute;
+    width: 100%;
+}
+
+.sobre{
+    left: 510px;
+    text-align: center;
+    width: 800px;
+    height: 370px;
+    position: absolute;
+    top: 250px;
+    
+    
+}
+
+.sobre>h1{
+    color: #2a272e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sobre>h4{
+    margin-top: 60px;
+    color: #4f4858;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    
+   
+}
+
+.imagens-sobrenos{
+    position: absolute;
+    height: 260px;
+    width: 900px;
+    top: 650px;
+    left: 470px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+.img1-sobrenos{
+    width: 280px;
+}
+
+.img2-sobrenos{
+    width: 280px;
+
+}
+
+.img3-sobrenos{
+    width: 280px;
+ 
+}
+
+.imagens-sobrenos img{
+    border-radius: 10px;
+}
+
+
+#cardapio-sabores{
+    display: flex;
+    width: 100%;
+    height: 840px;
+    top: 150px;
+
+    position: relative;
+   
+   
+
+}
+
+.cardapio-pasteis-queijo{
+    width: 35%;
+    left: 6%;
+    height: 652px;
+    position: absolute;
+    border: 5px solid rgb(209, 62, 62);
+    border-radius: 16px;
+    
+}
+
+.cardapio-pasteis-carne{
+    width: 35%;
+    left: 54%;
+    height: 652px;
+    position: absolute;
+    border: 5px solid rgb(209, 62, 62);
+    border-radius: 16px;
+}
+
+#cardapio-sabores img{
+    border-radius: 10px;
+}
+
+.pedidos{
+    position: absolute;
+    left: 39%;
+    top: 1450px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(209, 62, 62);
+}
+
+.tel-pedidos2{
+    position: absolute;
+    bottom: -90px;
+    left: -72px;
+    color: #2a272e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;   
+    
+    width: 490px;
+}
+
+.icones-cardapio1{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 81%;
+    top: 12px;
+}
+
+.icones-cardapio2{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 10%;
+    top: -26px;
+    
+}
+
+.cardapio2-bebidas{
+    position: absolute;
+    top: 750px;
+    left: 700px;
+}
+
+.cartoes{
+    position: absolute;
+    top: 1460px;
+    right: 150px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cartoes h1{
+    color: rgb(209, 62, 62);
+}
+
+.endereco{
+    position: absolute;
+    top: 1450px;
+    left: 150px;
+    text-align: center;
+}
+
+.endereco h1{
+    color: rgb(209, 62, 62);
+    padding: 10px;
+
+}
